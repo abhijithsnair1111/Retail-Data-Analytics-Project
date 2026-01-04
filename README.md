@@ -1,4 +1,6 @@
 # Retail Data Analytics & BI Reporting: EDA + Advanced Analytics & Power BI Reporting for a Retail Chain
+
 Welcome to the Retail Data Analytics and BI Reporting Project
-This is a **Full Stack Data Analysis** and **Business Intelligence Reporting** Project for a Retail Chian. This project include **Exploratory Data Analysis** plus **Advance Analytis** on the retail data 
-along a clean and mordern business ready Power BI Report
+
+This is a **Full Stack Data Analysis** and **Business Intelligence Reporting** Project for a Retail Chian. This project include **Exploratory Data Analysis** plus **Advanced Analytics** on a retail data 
+along with a clean and mordern business ready **Power BI Report**. The intend of this project is to analyse the data in depth to provide insights into all the business questions and create a stunning **Power BI Dashboard** follwing all the modern **UI/UX Principles** to visually represent the analysed data for further insights and decisions
