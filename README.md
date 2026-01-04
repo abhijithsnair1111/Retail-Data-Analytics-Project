@@ -16,7 +16,7 @@ The Processes:
 
 - **Exploratory Data Analysis:** Explore the Database to understand all structure and basic details regarding the content
   
-- **Advanced Analytics:** Use advance methods to creates reports
+- **Advanced Analytics:** Use advance methods to form coplex calculations and generate insights for reports
 
 ---
 
@@ -43,7 +43,7 @@ Each tables should be examined to find important columns belonging to each categ
 
 ---
 
-## Data Analysis 📈
+## Analysis 📈
 
 The first part of this project is **Data Analysis**. Exploring and Understanding the data to extract patterns, and futher manupulating it using advance methods form complex results  
 Thus the entire process is split into two parts
