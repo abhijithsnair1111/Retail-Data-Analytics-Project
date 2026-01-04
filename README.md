@@ -22,6 +22,8 @@ The Processes:
 
 ## Data Architecture 📐
 
+The Source data for this project is the Database **RetailDB** which has be constructed as part of the [Data Warehouse Project](placeholder).
+
 The Architecture for this project consists of the main Database **RetailDB**. The main Schema inside the database named **Gold** is made up of one **Fact** table and two **Dimension** tables
 
 - Fact Table  - Sales Details `gold.fact_sales`
@@ -31,6 +33,8 @@ The Architecture for this project consists of the main Database **RetailDB**. Th
 - Dimension Table - Products Details `gold.dim_products`
 
 ![Data Architecture](docs/data_architecture.png)
+
+[Data Catalog](docs/data_catalog.md) provides a detailed breakdown of the tables and columns inside the tables
 
 To further simplify each table the various columns inside each table can be split into two main categories
 
@@ -125,9 +129,24 @@ The purpose of the Advanced Analytics is to understand the data in depth by form
 
 ![Product_Report_Sample](docs/product_report_sample.png)
 
+---
 
+## Project Requirements 📋
+The entire project was constructed on top of  certain requirements and by the end of the Analysis all of them are fullfilled
 
+- [x] Connect to the source Database **RetailDB** to access all the necessary data for the project
 
+- [x] Define the Data Architecture of the project by understanding the structure of the Database
+
+- [x] Perform **Exploratory Data Analysis** on the Facts and Dimension tables to understand basic information about the data
+
+- [x] Perform **Advanced Analytics on the data to extract in depth information through complex calculations
+
+- [x] Create two reports each for the **Customers** and **Products** to be used in future Reportings
+
+- [x] Check whether the Analysis answers all the existing business questions and provide insights
+
+- [x] Provide clear documemtation reagarding the entire process in a easy to acess format
 
 
 
