@@ -16,6 +16,6 @@ The Processes:
   
 - **Advanced Analytics:** Use advance methods to creates reports
   
-- **Business Intelligence Report:** Create Visually appealing dashboards based n generated reports
+- **Business Intelligence Report:** Create Visually appealing dashboards based on generated reports
 
 ---
