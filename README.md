@@ -131,6 +131,44 @@ The purpose of the Advanced Analytics is to understand the data in depth by form
 
 ---
 
+## Business Questions & Insights 🔎
+This project started as a means to answers business question regarding the nature of the retail data. Some of the  most relevant questions and the answers that could be answered from this project are:
+
+- What is the overall sales performance of the retail chain over the last 5 years ?
+  - The overall sales perfromance of the retail chain has be fluctuating through out the last 5 years
+
+    | Year  | Sales     |
+    |---    |---        |
+    | 2010  | 43419     |
+    | 2011  | 7075088   |
+    | 2012  | 5842231   |
+    | 2013  | 16344878  |
+    | 2014  | 45642     |
+
+- Which age group of customers generate the most revenue for the business ?
+  - The customers with age 50 to 59 generate the most revenue for the business
+      
+    | Customer Age Group | Sales    |
+    |---                 |---       |
+    | 50 - 59            | 10578347 |
+    | 40 - 49            | 8664719  |
+    | 60 - 69	           | 6489920  |
+    | 70 - 79	           | 2823237  |
+    | 80 and Above	     | 795035   |
+
+- Which category of products generate the most revenue for the company in percentage ?
+  - The category 'Bikes' generate the most revenue for the company
+    
+    | Category    | Sales by Category | Total Sales | Percentage |
+    |---          |---                |---          |---         |
+    |Bikes        | 28311657          | 29351258	  | 96.46%     |
+    | Accessories	| 699909	          | 29351258	  | 2.38%      |
+    | Clothing	  | 339692	          | 29351258	  | 1.16%      |
+
+    This could adversely affect the company as disruption in bike sales could reduced the revenue considerably
+
+---
+
 ## Project Requirements 📋
 The entire project was constructed on top of  certain requirements and by the end of the Analysis all of them are fullfilled
 
@@ -138,13 +176,13 @@ The entire project was constructed on top of  certain requirements and by the en
 
 - [x] Define the Data Architecture of the project by understanding the structure of the Database
 
-- [x] Perform **Exploratory Data Analysis** on the Facts and Dimension tables to understand basic information about the data
+- [x] Perform **Exploratory Data Analysis** on the tables to understand basic information about the data
 
 - [x] Perform **Advanced Analytics on the data to extract in depth information through complex calculations
 
 - [x] Create two reports each for the **Customers** and **Products** to be used in future Reportings
 
-- [x] Check whether the Analysis answers all the existing business questions and provide insights
+- [x] Check whether the Analysis answers business questions and provide insights
 
 - [x] Provide clear documemtation reagarding the entire process in a easy to acess format
 
