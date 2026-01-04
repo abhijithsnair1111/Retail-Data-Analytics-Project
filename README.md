@@ -34,16 +34,7 @@ The Architecture for this project consists of the main Database **RetailDB**. Th
 
 ![Data Architecture](docs/data_architecture.png)
 
-[Data Catalog](docs/data_catalog.md) provides a detailed breakdown of the tables and columns inside the tables
-
-To further simplify each table the various columns inside each table can be split into two main categories
-
-- **Dimensional Value:** Charcter or Numerical value where aggregations are not possible
-- **Measure Values:** Numeric value where aggregations are possible
-
-Each tables should be examined to find important columns belonging to each category
-
-![Dimensions And Measures](docs/dimensions_and_measures.png)
+[**Data Catalog**](docs/data_catalog.md) provides a detailed breakdown of the tables and columns inside the tables
 
 ---
 
@@ -170,7 +161,7 @@ This project started as a means to answers business question regarding the natur
 ---
 
 ## Project Requirements 📋
-The entire project was constructed on top of  certain requirements and by the end of the Analysis all of them are fullfilled
+The entire project was constructed on top of  certain requirements and by the end of the Analysis all of them are fulfilled
 
 - [x] Connect to the source Database **RetailDB** to access all the necessary data for the project
 
@@ -185,6 +176,33 @@ The entire project was constructed on top of  certain requirements and by the en
 - [x] Check whether the Analysis answers business questions and provide insights
 
 - [x] Provide clear documemtation reagarding the entire process in a easy to acess format
+
+
+---
+
+## Tech Stack 🔧
+
+- **Language:** SQL (TSQL)
+- **Server:** Microsoft SQL Server
+- **Database:** RetailDB
+- **Processes:** EDA, Advanced Analytics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
