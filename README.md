@@ -191,6 +191,10 @@ The entire project was constructed on top of  certain requirements and by the en
 
 This entire project is Part Two of the **Data Warehouse, Data Analysis and BI Reporting Project** split into [**Data Warehouse Project**](https://github.com/abhijithsnair1111/Retail-Data-Warehouse-Project.git) and [**Data Analytics Project**](https://github.com/abhijithsnair1111/Retail-Data-Analytics-Project) and **PowerBI Reporting Project**
 
+Thank You visiting the Retail Data Analytics Project 🚀
+
+---
+
 
 
 
