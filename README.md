@@ -22,7 +22,7 @@ The Processes:
 
 ## Data Architecture 📐
 
-The Architecture for this project consists of the main Database **RetailDB**. The main Schema inside the Database **Gold** is made up of one Fact table and two Dimension tables
+The Architecture for this project consists of the main Database **RetailDB**. The main Schema inside the database named **Gold** is made up of one **Fact** table and two **Dimension** tables
 
 - Fact Table  - Sales Details `gold.fact_sales`
   
