@@ -89,12 +89,41 @@ The purpose of doing an initial EDA for this project is to develop an basic unde
   - Script: [`ranking_analysis`](scripts/ranking_analysis.sql)
   - Insights: Extracted Top and Bottom performing products and customers, products based on their performance, customers based on their purchase
 
+### Advanced Analytics
+The purpose of the Advanced Analytics is to understand the data in depth by forming complex calcultions to extract insight and generate comprehensive reports
 
+- **Change Over Time Analysis**
+  - Purpose: Track trends, growth and chages in key values over time. Understand performance of over time
+  - Script: [`change_over_time_analysis`](scripts/change_over_time_analysis.sql)
+  - Insights: Analysed Sales performance over time
+ 
+- **Cumulative Analysis**
+  - Purpose: Calculate Running Totals ans Moving Averages of key values. Performance over time cumulatively
+  - Script: [`cumulative_analysis`](scripts/cumulative_analysis.sql)
+  - Insights: Caculated Running Total Sales and Moving Average Prices
+ 
+- **Performance Analysis**
+  - Purpose: Calculate the Performace of a metrics by itself over time. Year Over Year analysis
+  - Script: [`performance_analysis`](scripts/performance_analysis.sql)
+  - Insights: Calculated each product performance compared to the average product sales and the previous year sales
+ 
+- **Part To Whole Analysis**
+  - Purpose: Calculate the proportion of a metric in a given category compared to the whole aggragated value
+  - Script: [`part_to_whole_analysis`](scripts/part_to_whole_analysis.sql)
+  - Insights: Calculated how much each category contributed to the overall sales
+ 
+- **Data Segmentation Analysis**
+  - Purpose: Group data into meaningful categories based on a specific metric
+  - Script: [`data_segmentation_analysis`](scripts/data_segmentation_analysis.sql)
+  - Insights: Segemented products into cost ranges and counted the number of products in each segment
 
+- **Reports**
+  - All the above analysis are summarized a single report for both the **Customers** and the **Products** to created a detailed report on all the important metrics and calculations
+  - Script: [`customer_report`](scripts/customer_report.sql) and [`product_report`](scripts/product_report.sql)
 
+![Customer Report Sample](docs/customer_report_sample.png)
 
-
-
+![Product_Report_Sample](docs/product_report_sample.png)
 
 
 
