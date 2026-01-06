@@ -115,7 +115,33 @@ The purpose of the Advanced Analytics is to understand the data in depth by form
 - **Reports**
   - All the above analysis are summarized a single report for both the **Customers** and the **Products** to created a detailed report on all the important metrics and calculations
   - Script: [`customer_report`](scripts/customer_report.sql) and [`product_report`](scripts/product_report.sql)
-
+  - Sample: Customer Report
+    | customer_key | customer_number | customer_name | customer_age | customer_age_group | customer_segment | lifespan | last_order | recency_in_months | total_orders | total_sales | total_quantity | total_products | avg_order_value | monthly_spend |
+    | --- | ---        | ---               | --- | ---   | --- | --- | ---        | --- | --- | ---  | --- | --- | ---  | --- |
+    | 1   | AW00011000 | Jon Yang          | 55  | 40-59 | VIP | 28  | 2013-05-03 | 152 | 3   | 8249 | 8   | 8   | 2749 | 294 |
+    | 2   | AW00011001 | Eugene Huang      | 50  | 40-59 | VIP | 35  | 2013-12-10 | 145 | 3   | 6384 | 11  | 10  | 2128 | 182 |
+    | 3   | AW00011002 | Ruben Torres      | 55  | 40-59 | VIP | 25  | 2013-02-23 | 155 | 3   | 8114 | 4   | 4   | 2704 | 324 |
+    | 4   | AW00011003 | Christy Zhu       | 53  | 40-59 | VIP | 29  | 2013-05-10 | 152 | 3   | 8139 | 9   | 9   | 2713 | 280 |
+    | 5   | AW00011004 | Elizabeth Johnson | 47  | 40-59 | VIP | 28  | 2013-05-01 | 152 | 3   | 8196 | 6   | 6   | 2732 | 292 |
+    | 6   | AW00011005 | Julio Ruiz        | 50  | 40-59 | VIP | 29  | 2013-05-02 | 152 | 3   | 8121 | 6   | 6   | 2707 | 280 |
+    | 7   | AW00011006 | Janet Alvarez     | 50  | 40-59 | VIP | 28  | 2013-05-14 | 152 | 3   | 8119 | 5   | 5   | 2706 | 289 |
+    | 8   | AW00011007 | Marco Mehta       | 57  | 40-59 | VIP | 26  | 2013-03-19 | 154 | 3   | 8211 | 8   | 8   | 2737 | 315 |
+    | 9   | AW00011008 | Rob Verhoff       | 51  | 40-59 | VIP | 26  | 2013-03-02 | 154 | 3   | 8106 | 7   | 7   | 2702 | 311 |
+    | 10  | AW00011009 | Shannon Carlson   | 57  | 40-59 | VIP | 28  | 2013-05-09 | 152 | 3   | 8091 | 5   | 5   | 2697 | 288 |
+    
+  - Sample: Product Report
+    | product_key | product_number | product_name | category | subcategory | cost | product_segments | lifespan | last_sale_date | recency_in_months | total_orders | total_sales | total_quantity | total_customers | avg_selling_price | avg_order_revenue | avg_monthly_revenue |
+    | --- | ---        | ---                      | ---        | ---            | ---  | ---            | --- | ---        | --- | --- | ---     | --- | --- | --- |  ---  | ---    |
+    | 3   | BK-M82B-38 | Mountain-100 Black- 38   | Bikes      | Mountain Bikes | 1898 | High Performer | 11  | 2011-12-27 | 169 | 49  | 165375  | 49  | 49  | 3375 | 3375 | 15034  |
+    | 4   | BK-M82B-42 | Mountain-100 Black- 42   | Bikes      | Mountain Bikes | 1898 | High Performer | 11  | 2011-12-27 | 169 | 45  | 151875  | 45  | 45  | 3375 | 3375 | 13806  |
+    | 5   | BK-M82B-44 | Mountain-100 Black- 44   | Bikes      | Mountain Bikes | 1898 | High Performer | 11  | 2011-12-21 | 169 | 60  | 202500  | 60  | 60  | 3375 | 3375 | 18409  |
+    | 6   | BK-M82B-48 | Mountain-100 Black- 48   | Bikes      | Mountain Bikes | 1898 | High Performer | 12  | 2011-12-26 | 169 | 57  | 192375  | 57  | 57  | 3375 | 3375 | 16031  |
+    | 7   | BK-M82S-38 | Mountain-100 Silver- 38  | Bikes      | Mountain Bikes | 1912 | High Performer | 12  | 2011-12-22 | 169 | 58  | 197200  | 58  | 58  | 3400 | 3400 | 16433  |
+    | 8   | BK-M82S-42 | Mountain-100 Silver- 42  | Bikes      | Mountain Bikes | 1912 | High Performer | 11  | 2011-12-28 | 169 | 42  | 142800  | 42  | 42  | 3400 | 3400 | 12981  |
+    | 9   | BK-M82S-44 | Mountain-100 Silver- 44  | Bikes      | Mountain Bikes | 1912 | High Performer | 12  | 2011-12-12 | 169 | 49  | 166600  | 49  | 49  | 3400 | 3400 | 13883  |
+    | 10  | BK-M82S-48 | Mountain-100 Silver- 48  | Bikes      | Mountain Bikes | 1912 | High Performer | 11  | 2011-12-23 | 169 | 36  | 122400  | 36  | 36  | 3400 | 3400 | 11127  |
+    | 16  | BK-R93R-44 | Road-150 Red- 44         | Bikes      | Road Bikes     | 2171 | High Performer | 12  | 2011-12-28 | 169 | 281 | 1005418 | 281 | 281 | 3578 | 3578 | 83784  |
+    | 17  | BK-R93R-48 | Road-150 Red- 48         | Bikes      | Road Bikes     | 2171 | High Performer | 12  | 2011-12-28 | 169 | 337 | 1205786 | 337 | 337 | 3578 | 3578 | 100482 |
 
 ---
 
