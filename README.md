@@ -56,32 +56,32 @@ The purpose of doing an initial EDA for this project is to develop an basic unde
 
 - **Database Exploration**
   - Purpose: Explore the structure of the Database. Understand the Tables and thier Schemas, explore all the Columns and its metadata
-  - Script: [`database_exploration`](scripts/database_exploration.sql)
+  - Script: [`database_exploration`](scripts/01_database_exploration.sql)
   - Insights: How the Schema, Tables and Columns inside the Database are structured
 
 - **Dimensions Exploration**
   - Purpose: Explore the Dimensional values inside the tables. Understand the cardinality of such values for future categorization
-  - Script: [`dimensions_exploration`](scripts/dimensions_exploration.sql)
+  - Script: [`dimensions_exploration`](scripts/02_dimensions_exploration.sql)
   - Insights: All the unique Countries in which the customers belong to, All the different Categories, Subcategories and Products Names
 
 - **Measures Explorations**
   - Purpose: Explore the Measure values inside the table. Understand the basic aggregations that can be performed on the measures
-  - Script: [`measures_exploration`](scripts/measures_exploration.sql)
+  - Script: [`measures_exploration`](scripts/03_measures_exploration.sql)
   - Insights: Generated a basic report regarding all the key metrics of the sales (Sales, Orders, Quantity, Price , Products and Customers)
  
 - **Date Exploration**
   - Purpose: Explore the Date range of several important date values.
-  - Script: [`date_exploration`](scripts/date_exploration.sql)
+  - Script: [`date_exploration`](scripts/04_date_exploration.sql)
   - Insights: Extacted the first and last Order Date and the months in between them, Extracted the oldest and youngest customer
  
 - **Magnitude Analysis**
   - Purpose: Understand data dstributions across categories. Group measures by dimensions
-  - Script: [`magnitude_analysis `](scripts/magnitude_analysis.sql)
+  - Script: [`magnitude_analysis `](scripts/05_magnitude_analysis.sql)
   - Insights: Extracted several aggregations by categoreis such as Total Customers by Countries/Gender, Total Produts by Categories
     
 - **Ranking Analysis**
   - Purpose: To rank different dimensions according to various measures. Find out the top or bottom performers
-  - Script: [`ranking_analysis`](scripts/ranking_analysis.sql)
+  - Script: [`ranking_analysis`](scripts/06_ranking_analysis.sql)
   - Insights: Extracted Top and Bottom performing products and customers, products based on their performance, customers based on their purchase
 
 ### Advanced Analytics
@@ -89,32 +89,32 @@ The purpose of the Advanced Analytics is to understand the data in depth by form
 
 - **Change Over Time Analysis**
   - Purpose: Track trends, growth and chages in key values over time. Understand performance of over time
-  - Script: [`change_over_time_analysis`](scripts/change_over_time_analysis.sql)
+  - Script: [`change_over_time_analysis`](scripts/07_change_over_time_analysis.sql)
   - Insights: Analysed Sales performance over time
  
 - **Cumulative Analysis**
   - Purpose: Calculate Running Totals ans Moving Averages of key values. Performance over time cumulatively
-  - Script: [`cumulative_analysis`](scripts/cumulative_analysis.sql)
+  - Script: [`cumulative_analysis`](scripts/08_cumulative_analysis.sql)
   - Insights: Caculated Running Total Sales and Moving Average Prices
  
 - **Performance Analysis**
   - Purpose: Calculate the Performace of a metrics by itself over time. Year Over Year analysis
-  - Script: [`performance_analysis`](scripts/performance_analysis.sql)
+  - Script: [`performance_analysis`](scripts/09_performance_analysis.sql)
   - Insights: Calculated each product performance compared to the average product sales and the previous year sales
  
 - **Part To Whole Analysis**
   - Purpose: Calculate the proportion of a metric in a given category compared to the whole aggragated value
-  - Script: [`part_to_whole_analysis`](scripts/part_to_whole_analysis.sql)
+  - Script: [`part_to_whole_analysis`](scripts/10_part_to_whole_analysis.sql)
   - Insights: Calculated how much each category contributed to the overall sales
  
 - **Data Segmentation Analysis**
   - Purpose: Group data into meaningful categories based on a specific metric
-  - Script: [`data_segmentation_analysis`](scripts/data_segmentation_analysis.sql)
+  - Script: [`data_segmentation_analysis`](scripts/11_data_segmentation_analysis.sql)
   - Insights: Segemented products into cost ranges and counted the number of products in each segment
 
 - **Reports**
   - All the above analysis are summarized a single report for both the **Customers** and the **Products** to created a detailed report on all the important metrics and calculations
-  - Script: [`customer_report`](scripts/customer_report.sql) and [`product_report`](scripts/product_report.sql)
+  - Script: [`customer_report`](scripts/reports/customer_report.sql) and [`product_report`](scripts/reports/product_report.sql)
   - Sample: Customer Report
     | customer_key | customer_number | customer_name | customer_age | customer_age_group | customer_segment | lifespan | last_order | recency_in_months | total_orders | total_sales | total_quantity | total_products | avg_order_value | monthly_spend |
     | --- | ---        | ---               | --- | ---   | --- | --- | ---        | --- | --- | ---  | --- | --- | ---  | --- |
