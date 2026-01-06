@@ -132,11 +132,6 @@ The purpose of the Advanced Analytics is to understand the data in depth by form
     | 5   | BK-M82B-44 | Mountain-100 Black- 44   | Bikes      | Mountain Bikes | 1898 | High Performer | 11  | 2011-12-21 | 169 | 60  | 202500  | 60  | 60  | 3375 | 3375 | 18409  |
     | 6   | BK-M82B-48 | Mountain-100 Black- 48   | Bikes      | Mountain Bikes | 1898 | High Performer | 12  | 2011-12-26 | 169 | 57  | 192375  | 57  | 57  | 3375 | 3375 | 16031  |
     | 7   | BK-M82S-38 | Mountain-100 Silver- 38  | Bikes      | Mountain Bikes | 1912 | High Performer | 12  | 2011-12-22 | 169 | 58  | 197200  | 58  | 58  | 3400 | 3400 | 16433  |
-    | 8   | BK-M82S-42 | Mountain-100 Silver- 42  | Bikes      | Mountain Bikes | 1912 | High Performer | 11  | 2011-12-28 | 169 | 42  | 142800  | 42  | 42  | 3400 | 3400 | 12981  |
-    | 9   | BK-M82S-44 | Mountain-100 Silver- 44  | Bikes      | Mountain Bikes | 1912 | High Performer | 12  | 2011-12-12 | 169 | 49  | 166600  | 49  | 49  | 3400 | 3400 | 13883  |
-    | 10  | BK-M82S-48 | Mountain-100 Silver- 48  | Bikes      | Mountain Bikes | 1912 | High Performer | 11  | 2011-12-23 | 169 | 36  | 122400  | 36  | 36  | 3400 | 3400 | 11127  |
-    | 16  | BK-R93R-44 | Road-150 Red- 44         | Bikes      | Road Bikes     | 2171 | High Performer | 12  | 2011-12-28 | 169 | 281 | 1005418 | 281 | 281 | 3578 | 3578 | 83784  |
-    | 17  | BK-R93R-48 | Road-150 Red- 48         | Bikes      | Road Bikes     | 2171 | High Performer | 12  | 2011-12-28 | 169 | 337 | 1205786 | 337 | 337 | 3578 | 3578 | 100482 |
 
 ---
 
