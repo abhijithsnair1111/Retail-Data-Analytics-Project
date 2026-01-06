@@ -123,11 +123,6 @@ The purpose of the Advanced Analytics is to understand the data in depth by form
     | 3   | AW00011002 | Ruben Torres      | 55  | 40-59 | VIP | 25  | 2013-02-23 | 155 | 3   | 8114 | 4   | 4   | 2704 | 324 |
     | 4   | AW00011003 | Christy Zhu       | 53  | 40-59 | VIP | 29  | 2013-05-10 | 152 | 3   | 8139 | 9   | 9   | 2713 | 280 |
     | 5   | AW00011004 | Elizabeth Johnson | 47  | 40-59 | VIP | 28  | 2013-05-01 | 152 | 3   | 8196 | 6   | 6   | 2732 | 292 |
-    | 6   | AW00011005 | Julio Ruiz        | 50  | 40-59 | VIP | 29  | 2013-05-02 | 152 | 3   | 8121 | 6   | 6   | 2707 | 280 |
-    | 7   | AW00011006 | Janet Alvarez     | 50  | 40-59 | VIP | 28  | 2013-05-14 | 152 | 3   | 8119 | 5   | 5   | 2706 | 289 |
-    | 8   | AW00011007 | Marco Mehta       | 57  | 40-59 | VIP | 26  | 2013-03-19 | 154 | 3   | 8211 | 8   | 8   | 2737 | 315 |
-    | 9   | AW00011008 | Rob Verhoff       | 51  | 40-59 | VIP | 26  | 2013-03-02 | 154 | 3   | 8106 | 7   | 7   | 2702 | 311 |
-    | 10  | AW00011009 | Shannon Carlson   | 57  | 40-59 | VIP | 28  | 2013-05-09 | 152 | 3   | 8091 | 5   | 5   | 2697 | 288 |
     
   - Sample: Product Report
     | product_key | product_number | product_name | category | subcategory | cost | product_segments | lifespan | last_sale_date | recency_in_months | total_orders | total_sales | total_quantity | total_customers | avg_selling_price | avg_order_revenue | avg_monthly_revenue |
